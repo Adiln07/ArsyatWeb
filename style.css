@@ -131,7 +131,7 @@ article h1 {
   color: white;
   text-align: center;
   padding-top: 1em;
-  font-size: 4em;
+  font-size: 1em;
   font-weight: 400;
 
   font-family: Libre Baskerville;
@@ -389,7 +389,7 @@ aside h1 {
 
 /* Media Query */
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 844px) {
   main {
     padding-top: 5em;
   }
@@ -411,22 +411,26 @@ aside h1 {
   }
   .title-text .title-text_audio a {
     margin: -6em 0em;
-    width: 28%;
+    width: 32%;
   }
 
-  article h1 {
+  /* article h1 {
     font-size: 2em;
+  } */
+
+  #content h1 {
+    font-size: 3em;
   }
 
   .article-1 {
-    padding: 5em 0;
+    padding: 2em 0;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
   }
 
   .article-1 img {
-    width: 40em;
+    width: 20em;
   }
 
   .article-1_text {
@@ -493,7 +497,7 @@ aside h1 {
     justify-content: center;
   }
   .gallery-img img {
-    width: 20em;
+    width: 15em;
     object-fit: cover;
   }
 
@@ -503,7 +507,7 @@ aside h1 {
   }
   .gallery-img2 img {
     padding: 0.5em 1em;
-    width: 20em;
+    width: 15em;
     height: 25em;
     object-fit: cover;
     object-position: top;
@@ -516,7 +520,7 @@ aside h1 {
   }
   .gallery-img3 img {
     padding: 1em;
-    width: 20em;
+    width: 15em;
   }
 
   .aside-container {
@@ -534,6 +538,10 @@ aside h1 {
   .footer-main {
     flex-direction: column;
     gap: 1em;
+  }
+
+  .about-data p {
+    text-align: center;
   }
 
   .hamburger {
@@ -584,7 +592,7 @@ aside h1 {
 }
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 844px) and (max-width: 1024px) {
   main {
     padding-top: 5em;
   }
